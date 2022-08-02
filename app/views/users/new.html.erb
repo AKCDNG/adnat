@@ -1,4 +1,9 @@
 <div class="auth-container">
+  <% flash.each do |type, msg| %>
+    <div class="alert alert-info">
+      <%= msg %>
+    </div>
+  <% end %>
   <div class="auth-form">
     <h1>Sign Up</h1>
     <%= form_with model: @user, url: signup_path do |f| %>
