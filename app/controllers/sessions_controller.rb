@@ -8,13 +8,13 @@ class SessionsController < ApplicationController
       redirect_to home_path
     else
       flash[:alert] = "Cannot login. Please try again."
-      redirect_to login_path
+      redirect_to root
     end
   end
 
   def destroy
     session.clear
     flash[:notice] = "You have successfully been logged out."
-    redirect_to login_path
+    redirect_to root_path
   end
 end
