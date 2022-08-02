@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
       redirect_to home_path
     else
       flash[:alert] = "Cannot login. Please try again."
-      redirect_to root
+      redirect_to login_path
     end
   end
 
