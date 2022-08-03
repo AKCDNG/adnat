@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  belongs_to :organisation, optional: true
+  
   has_secure_password
 
   validates :password, length: { minimum: 6}
