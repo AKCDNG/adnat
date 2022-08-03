@@ -10,7 +10,7 @@ class UsersController < ApplicationController
       redirect_to home_path
     else
       flash[:alert] = "Cannot sign up. Please try again."
-      render :new
+      redirect_to signup_path
     end
   end
 
