@@ -44,6 +44,8 @@ gem "bootsnap", require: false
 
 gem "email_validator"
 
+gem 'validates_timeliness', '~> 4.0', '>= 4.0.2'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
