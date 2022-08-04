@@ -3,7 +3,13 @@ class HomeController < ApplicationController
 
   def view
     @user = current_user
-    
-    render "home"
+
+    if @user.organisation
+      @organisation = @user.organisation
+      render 'home'
+    else
+      @organisations = Organisation.all
+      render 'non_org_user'
+    end
   end
 end
