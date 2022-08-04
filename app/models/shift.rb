@@ -5,7 +5,6 @@ class Shift < ApplicationRecord
   
   validates :start, presence: true
   validates :finish, presence: :true
-  validates :organisation
   validates :break_length, numericality: {only_integers: true}
   validates_datetime :start, :finish
   validates_date :start, on_or_before: :today
