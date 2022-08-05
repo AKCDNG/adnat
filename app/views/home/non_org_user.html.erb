@@ -1,10 +1,22 @@
-<h1>Hey There <%= current_user.name %>.
+<% if logged_in? %>
+<h1>Hey There <%= current_user.name %>!
+<strong><%= button_to 'Log Out', logout_path, method: :delete %></strong>
+<% end %>
 
 <h2>Join an organisation</h2>
-<p>You aren’t a member of any organisation. Join an existing one or create a new one to join.</p>
-
+<p>You aren’t a employee of any organisation. Join an existing one or create a new one to join.</p>
 
 <h2>Organisations</h2>
 
+<h2>Create Organisation<h3>
+<div class="auth-form">
+  <%= form_with model: @organisation, url: join_path do |f| %>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %><br>
 
-<h2>Create an organisation</h2>
+    <%= f.label :hourly_pay_rate %><br>
+    <%= f.text_field :hourly_pay_rate %><br>
+
+    <%= f.submit "Sign Up", class: "btn-cta" %>
+  <% end %>
+</div>
