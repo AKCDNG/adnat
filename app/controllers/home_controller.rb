@@ -9,6 +9,7 @@ class HomeController < ApplicationController
       render 'home'
     else
       @organisations = Organisation.all
+      @organisation = Organisation.new
       render 'non_org_user'
     end
   end
