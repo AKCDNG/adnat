@@ -11,4 +11,18 @@ class OrganisationController < ApplicationController
       render "home/non_member_show" 
     end
   end
+
+  def destroy
+    @organisation.destroy
+    redirect_to home_path
+  end
+
+  private
+  def organisation_params
+    params.require(:organisation).permit(:name, :hourly_pay_rate)
+  end
+
+  def set_organisation
+    @organisation = Organisation.find(params[:id])
+  end
 end 
