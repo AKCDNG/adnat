@@ -1,5 +1,9 @@
 <h1>Welcome</h1>
 <% if logged_in? %>
   <p>Logged in as <%= current_user.name %></p>
-  <p><strong><%= button_to 'Logout', logout_path, method: :delete %></strong></p>
+  <p><%= button_to 'Log Out', logout_path, method: :delete %></p>
 <% end %>
+
+<p>You are currently in:<><br>
+<%= @organisation.name %>
+<%= button_to 'Log Out', logout_path, method: :delete %>
