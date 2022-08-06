@@ -10,6 +10,6 @@ Rails.application.routes.draw do
   resources :organisations, except: [:index, :show, :new]
 
   get "home", to: "home#view"
-  post '/join', to: 'employed#create'
-  delete '/leave', to: 'employed#destroy'
+  post 'create', to: 'organisation#create'
+  delete 'leave', to: 'employed#destroy'
 end

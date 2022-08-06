@@ -15,7 +15,7 @@
 
 <h2>Create Organisation<h3>
 <div class="auth-form">
-  <%= form_with model: @organisation, url: join_path do |f| %>
+  <%= form_with model: @organisation, url: create_path do |f| %>
     <%= f.label :name %><br>
     <%= f.text_field :name %><br>
 
