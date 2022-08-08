@@ -6,9 +6,9 @@ Adnat is a highly simplified version of the Tanda web app. Tanda is an employee 
 
 Below highlights the user stories to provide an Minimum Viable Product for Adnat.
 
-✅ = Done.
-🏃‍♂️ = In Progress.
-❌ = Have not attempted (yet).
+✅ = Done
+🏃‍♂️ = In Progress
+❌ = Have not attempted (yet)
 ```
 As a user,
 so I can create an account for Adnat,
@@ -81,7 +81,8 @@ I manually created a user with an organisation id to get past that for the time 
 
 I also realise I need to make an edit link for the organisation and also a `forgot password` link too.
 
-## My Learings From This Tech Test
+## My Learings From This Tech Test
+
 Although I have not currently completed this tech test, I am extremely proud of learning another framework in a matter of days.
 My learnings at a glance:
 * How to write a super simple Rails app!!
