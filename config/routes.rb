@@ -7,9 +7,10 @@ Rails.application.routes.draw do
   post "login", to: "sessions#create"
   delete "logout", to: "sessions#destroy"
   resources :users, except: [:new, :create]
-  resources :organisations, except: [:index, :show, :new]
 
   get "home", to: "home#view"
   post 'create', to: 'organisation#create'
-  delete 'leave', to: 'employed#destroy'
+  post 'join', to: "employment#join"
+  delete 'leave', to: 'employment#destroy'
+
 end
