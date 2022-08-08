@@ -81,7 +81,7 @@ I manually created a user with an `organisation_id` to get past that for the tim
 
 I also realise I need to make an edit link for the organisation and also a `forgot password` link too.
 
-## Learings From This Tech Test
+## My Learnings From This Tech Test
 Although I have not currently completed this tech test, I am extremely proud of learning another framework in a matter of days.
 My learnings at a glance:
 * How to write a super simple Rails app!!
