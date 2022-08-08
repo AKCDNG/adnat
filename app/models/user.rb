@@ -3,8 +3,7 @@ class User < ApplicationRecord
   has_many :shifts
   
   has_secure_password
-
-  validates :password, length: { minimum: 6 }
+  validates :password, length: { minimum: 6, maximum: 20 }, on: :create
   validates :name, presence: true
   validates :email, presence: true
   validates :email, uniqueness: true
