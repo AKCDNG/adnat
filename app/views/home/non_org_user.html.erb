@@ -10,6 +10,7 @@
 <% @organisations.each do |org| %>
 <li>
   <%= org.name %><br>
+  <%= button_to "join", join_path, params: { organisation: {organisation_id: org.id} } %>
 </li>
 <% end %>
 
