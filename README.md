@@ -6,9 +6,9 @@ Adnat is a highly simplified version of the Tanda web app. Tanda is an employee 
 
 Below highlights the user stories to provide an Minimum Viable Product for Adnat.
 
-✅ = Done 
-🏃‍♂️ = In Progress 
-❌ = Have not attempted (yet)
+✅ = Done.<br>
+🏃‍♂️ = In Progress.<br>
+❌ = Have not attempted (yet).
 ```
 As a user,
 so I can create an account for Adnat,
