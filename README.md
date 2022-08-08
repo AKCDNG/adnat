@@ -74,6 +74,13 @@ I followed the provided entity-relationship-diagram given by Tanda & shown below
 
 After gaining a minimal understanding of Rails, I started off with user authentication. Completing this user story allowed me to really get my hands dirty with Rails and solidify any uncertainty or confusion I had with the framework. User authentication included a model, view and controller, so completing that ticket really helped with my confidence. From there, I created a home page which shows organisations and links towards viewing shifts and logging out.
 
+## My Current Situation
+At the moment, I am on a blocker with joining an organisation. By using the rails terminal, I can test that the code functions as it should to join an organisation, but whenever I click `join`, I receive a `rollback transaction` error in the terminal when changing the `organisation_id` to the id of the organisation that is selected. I believe the code in my controller is all good, it's something to do with the model, but I am unsure of what it is.
+
+I manually created a user with an organisation id to get past that for the time being so I can work on models. That is my current ticket.
+
+I also realise I need to make an edit link for the organisation and also a `forgot password` link too.
+
 ## My Learings From This Tech Test
 Although I have not currently completed this tech test, I am extremely proud of learning another framework in a matter of days.
 My learnings at a glance:
