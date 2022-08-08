@@ -4,7 +4,7 @@ Adnat is a highly simplified version of the Tanda web app. Tanda is an employee 
 
 ## User Stories & Completion
 
-Below highlights the user stories to provide an Minimum Viable Product for Adnat.
+Below highlights the user stories to provide a Minimum Viable Product for Adnat.
 
 ✅ = Done.<br>
 🏃‍♂️ = In Progress.<br>
@@ -75,9 +75,9 @@ I followed the provided entity-relationship-diagram given by Tanda & shown below
 After gaining a minimal understanding of Rails, I started off with user authentication. Completing this user story allowed me to really get my hands dirty with Rails and solidify any uncertainty or confusion I had with the framework. User authentication included a model, view and controller, so completing that ticket really helped with my confidence. From there, I created a home page which shows organisations and links towards viewing shifts and logging out.
 
 ## My Current Situation
-At the moment, I am on a blocker with joining an organisation. By using the rails terminal, I can test that the code functions as it should to join an organisation, but whenever I click `join`, I receive a `rollback transaction` error in the terminal when changing the `organisation_id` to the id of the organisation that is selected. I believe the code in my controller is all good, it's something to do with the model, but I am unsure of what it is.
+At the moment, I am on a blocker with joining an organisation. By using the rails terminal, I can test that the code functions as it should to join an organisation, but whenever I click `join`, I receive a `rollback transaction` error in the terminal when changing the `organisation_id` to the `id` of the organisation that is selected. I believe the code in my controller is all good, it's something to do with the model, but I am unsure of what it is.
 
-I manually created a user with an organisation id to get past that for the time being so I can work on models. That is my current ticket.
+I manually created a user with an `organisation_id` to get past that for the time being, so I can work on models. That is my current ticket.
 
 I also realise I need to make an edit link for the organisation and also a `forgot password` link too.
 
@@ -85,18 +85,18 @@ I also realise I need to make an edit link for the organisation and also a `forg
 Although I have not currently completed this tech test, I am extremely proud of learning another framework in a matter of days.
 My learnings at a glance:
 * How to write a super simple Rails app!!
-* Recognise Rails code instantly whereas it was foreign before.
-* Understand the use of the Rails terminal, (found out about this so late on but it is incredible for testing classes, albeit a tad confusing at times).
-* Reinforce learnings of object oriented programming.
-* Reinfornce learnings of object oriented design, such as encapsulation, abstraction and inheritance.
+* Recognise Rails code instantly, whereas it was foreign before.
+* Understand the use of the Rails terminal, (found out about this so late on, but it is incredible for testing classes, albeit a tad confusing at times).
+* Reinforce learnings of object-oriented programming, (had been working on modular programming with JavaScript previously).
+* Reinforce learnings of object-oriented design, such as encapsulation, abstraction and inheritance.
 * How to debug with a process on Rails, using the stack trace, rails terminal and stack overflow as efficiently as possible to understand issues with my code.
 * Using helper methods in Rails.
 * Using partials. I had never come across something like this before, very interesting and helpful for views.
 * Understanding databases and foreign key usage in Rails and SQLite, (to an extent).
 
 ## Things I Would Do Differently
-* TEST MY CODE! Due to it being a brand new framework, I didn't get my feet wet in testing, but coding without testing made me feel very insecure with my code. The thought of not knowing if one feature implementation broke another feature made me feel anxious. I do have exprience with RSpec and Capybara, so writing tests and following TDD would have been widely beneficial.
-* Ask for help sooner. As much as it is a tech test, it is also a completely new framework. Learning Rails in a week is tough, and then building an app with it is even tougher. As a junior developer I understand the importance of reaching out for help whenever neccessary.
+* TEST MY CODE! Due to it being a brand-new framework, I didn't get my feet wet in testing, but coding without testing made me feel very insecure with my code. The thought of not knowing if one feature implementation broke another feature made me feel anxious. I do have experience with RSpec and Capybara, so writing tests and following TDD would have been widely beneficial.
+* Ask for help sooner. As much as it is a tech test, it is also a completely new framework. Learning Rails in a week is tough, and then building an app with it is even tougher. As a junior developer, I understand the importance of reaching out for help whenever necessary.
 * Use the `generate` terminal method more often. I did not use `rails g scaffold` once, practically because I found out about it late on, and by that point I was coding in controllers and models from scratch. It did teach me a tonne about models and controllers, but using the scaffold code does make more sense.
 
 ## How To Use
