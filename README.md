@@ -94,7 +94,7 @@ My learnings at a glance:
 * Using partials. I had never come across something like this before, very interesting and helpful for views.
 * Understanding databases and foreign key usage in Rails and SQLite, (to an extent).
 
-## Things I would do differently
+## Things I Would Do Differently
 * TEST MY CODE! Due to it being a brand new framework, I didn't get my feet wet in testing, but coding without testing made me feel very insecure with my code. The thought of not knowing if one feature implementation broke another feature made me feel anxious. I do have exprience with RSpec and Capybara, so writing tests and following TDD would have been widely beneficial.
 * Ask for help sooner. As much as it is a tech test, it is also a completely new framework. Learning Rails in a week is tough, and then building an app with it is even tougher. As a junior developer I understand the importance of reaching out for help whenever neccessary.
 * Use the `generate` terminal method more often. I did not use `rails g scaffold` once, practically because I found out about it late on, and by that point I was coding in controllers and models from scratch. It did teach me a tonne about models and controllers, but using the scaffold code does make more sense.
