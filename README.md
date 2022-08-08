@@ -82,7 +82,6 @@ I manually created a user with an organisation id to get past that for the time 
 I also realise I need to make an edit link for the organisation and also a `forgot password` link too.
 
 ## My Learings From This Tech Test
-
 Although I have not currently completed this tech test, I am extremely proud of learning another framework in a matter of days.
 My learnings at a glance:
 * How to write a super simple Rails app!!
@@ -99,6 +98,15 @@ My learnings at a glance:
 * TEST MY CODE! Due to it being a brand new framework, I didn't get my feet wet in testing, but coding without testing made me feel very insecure with my code. The thought of not knowing if one feature implementation broke another feature made me feel anxious. I do have exprience with RSpec and Capybara, so writing tests and following TDD would have been widely beneficial.
 * Ask for help sooner. As much as it is a tech test, it is also a completely new framework. Learning Rails in a week is tough, and then building an app with it is even tougher. As a junior developer I understand the importance of reaching out for help whenever neccessary.
 * Use the `generate` terminal method more often. I did not use `rails g scaffold` once, practically because I found out about it late on, and by that point I was coding in controllers and models from scratch. It did teach me a tonne about models and controllers, but using the scaffold code does make more sense.
+
+## How To Use
+1. Clone this repository.
+2. Run `bundle install` in terminal.
+3. Run `rails db:migrate` in terminal.
+4. Run `rails server` in terminal.
+5. Navigate to `http://localhost:3000/` and sign up!
+
+(Once the app is complete, there will be images on this document for a visual aid.)
 
 ## Conclusion
 All in all, I have thoroughly enjoyed doing this tech test. Although it is not currently completed, I do feel like I have proved to myself again that I have the ability to learn a brand-new framework and codebase within a few days to a point where I can feel comfortable manoeuvring through it and coding on it. I will continue to keep working on this tech test regardless to make sure it is completed. It has been challenging but also a lot of fun and I have really enjoyed coding with Ruby on Rails.
