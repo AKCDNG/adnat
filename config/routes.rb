@@ -14,7 +14,10 @@ Rails.application.routes.draw do
   delete 'leave', to: 'employment#destroy'
 
   resources :users, except: [:new, :create, :destroy, :index] 
-  resources :organisation, except: [:index, :show, :new]
+  resources :organisation, except: [:index, :show, :new] do
+    resources :shifts, only: [:index]
+  end
 
+  resources :shifts, except: [:index, :show]
 
 end
