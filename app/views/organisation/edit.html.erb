@@ -1,0 +1,8 @@
+<h2> Edit Details for <%= @organisation.name %> </h2>
+<%= form_with model: @organisation do |f| %>
+  <%= f.label :name %><br>
+  <%= f.text_field :name %><br>
+  <%= f.label :hourly_pay_rate %><br>
+  <%= f.number_field :hourly_pay_rate %><br>
+  <%= f.submit "Save" %>
+<% end %>
