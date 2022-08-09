@@ -12,6 +12,17 @@ class OrganisationController < ApplicationController
     end
   end
 
+  def edit
+  end
+
+  def update
+    if @organisation.update(organisation_params)
+      redirect_to home_path
+    else
+      render :edit
+    end
+  end
+
   def destroy
     @organisation.destroy
     redirect_to home_path
