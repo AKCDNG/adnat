@@ -7,3 +7,4 @@
 <p>You are currently in:<p><br>
 <%= @organisation.name %>
 <%= link_to "Edit", edit_organisation_path(@organisation) %>
+<%= link_to "View shifts", organisation_shifts_path(@organisation), class: "btn-primary" %>
