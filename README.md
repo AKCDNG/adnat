@@ -44,7 +44,7 @@ I would like to create a company.
 As a company owner,
 so I can correct my company information,
 I would like to rename my company and change the hourly pay rate.
-🏃‍♂️
+✅
 ```
 ```
 As an employee,
