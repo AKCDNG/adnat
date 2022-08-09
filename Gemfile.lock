@@ -216,6 +216,7 @@ GEM
     sqlite3 (1.4.4)
     stimulus-rails (1.1.0)
       railties (>= 6.0.0)
+    strftime (1.0.0)
     strscan (3.0.4)
     thor (1.2.1)
     time_difference (0.5.0)
@@ -267,6 +268,7 @@ DEPENDENCIES
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
+  strftime (~> 1.0)
   time_difference
   turbo-rails
   tzinfo-data

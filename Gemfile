@@ -46,6 +46,8 @@ gem "email_validator"
 
 gem 'validates_timeliness', '~> 4.0', '>= 4.0.2'
 
+gem 'strftime', '~> 1.0'
+
 gem 'time_difference'
 # Use Sass to process CSS
 # gem "sassc-rails"
