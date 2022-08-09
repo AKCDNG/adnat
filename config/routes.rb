@@ -13,4 +13,8 @@ Rails.application.routes.draw do
   post 'join', to: "employment#join"
   delete 'leave', to: 'employment#destroy'
 
+  resources :users, except: [:new, :create, :destroy, :index] 
+  resources :organisation, except: [:index, :show, :new]
+
+
 end
